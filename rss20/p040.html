@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Practice Makes Perfect: Planning to Learning Skill Parameter Policies" />  
+<meta name="citation_author" content="Nishanth Kumar, Tom Silver, Willie McClinton, Linfeng Zhao, Stephen Proulx, Tomás Lozano-Pérez, Leslie Pack Kaelbling, Jennifer L. Barry" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p040.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Practice Makes Perfect: Planning to Learning Skill Parameter Policies</h3> 
+<i>Nishanth Kumar, Tom Silver, Willie McClinton, Linfeng Zhao, Stephen Proulx, Tomás Lozano-Pérez, Leslie Pack Kaelbling, Jennifer L. Barry</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+One promising approach towards effective robot decision making in complex, long-horizon tasks is to sequence together *parameterized skills*. We consider a setting where a robot is initially equipped with (1) a library of parameterized skills, (2) an AI planner for sequencing together the skills given a goal, and (3) a very general prior distribution for selecting skill parameters. Once deployed, the robot should rapidly and autonomously learn to improve its performance by specializing its skill parameter selection policy to the particular objects, goals, and constraints in its environment. In this work, we focus on the active learning problem of choosing which skills to *practice* to maximize expected future task success. We propose that the robot should *estimate* the competence of each skill, *extrapolate* the competence (asking: "how much would the competence improve through practice?"), and *situate* the skill in the task distribution through competence-aware planning. This approach is implemented within a fully autonomous system where the robot repeatedly plans, practices, and learns without any environment resets. Through experiments in simulation, we find that our approach learns effective parameter policies more sample-efficiently than several baselines. Experiments in the real-world demonstrate our approach’s ability to handle noise from perception and control and improve the robot’s ability to solve two long-horizon mobile-manipulation tasks after a few hours of autonomous practice. Project website: http://ees.csail.mit.edu
+</p>  
+<p>  
+<b>Download:</b> <a href="p040.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p040.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Kumar-RSS-24, 
+    AUTHOR    = {Nishanth Kumar, Tom Silver, Willie McClinton, Linfeng Zhao, Stephen Proulx, Tomás Lozano-Pérez, Leslie Pack Kaelbling, Jennifer L. Barry}, 
+    TITLE     = {{Practice Makes Perfect: Planning to Learning Skill Parameter Policies}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.040} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

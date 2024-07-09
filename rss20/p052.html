@@ -1,0 +1,64 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Vid2Robot: End-to-end Video-conditioned Policy Learning with Cross-Attention Transformers" />  
+<meta name="citation_author" content="Vidhi Jain, Maria Attarian, Nikhil J Joshi, Ayzaan Wahid, Danny Driess, Quan Vuong, Pannag R Sanketi, Pierre Sermanet, Stefan Welker, Christine Chan, Igor Gilitschenski, Yonatan Bisk, Debidatta Dwibedi" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p052.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Vid2Robot: End-to-end Video-conditioned Policy Learning with Cross-Attention Transformers</h3> 
+<i>Vidhi Jain, Maria Attarian, Nikhil J Joshi, Ayzaan Wahid, Danny Driess, Quan Vuong, Pannag R Sanketi, Pierre Sermanet, Stefan Welker, Christine Chan, Igor Gilitschenski, Yonatan Bisk, Debidatta Dwibedi</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Large-scale multi-task robotic manipulation systems often rely on text to specify the task. In this work, we explore whether a robot can learn by observing humans. To do so, the robot must understand a person's intent and perform the inferred task despite differences in the embodiments and environments. 
+ We introduce Vid2Robot, an end-to-end video-conditioned policy that takes
+ human videos demonstrating manipulation tasks as input and producing robot actions. Our model is trained with a large dataset of prompt video-robot trajectory pairs to learn unified representations of human and robot actions from videos.
+ Vid2Robot uses cross-attention transformer layers 
+ between video features and the current robot state to produce the actions and perform the same task as shown in the video. We use auxiliary contrastive losses to align the prompt and robot video representations for better policies.
+ We evaluate Vid2Robot on real-world robots and observe over 20% improvement over BC-Z when using human prompt videos. Further, we also show cross-object motion transfer ability that enables video-conditioned policies to transfer a motion observed on one object in the prompt video to another object in the robot's own environment. 
+ Videos available at https://vid2robot.github.io
+</p>  
+<p>  
+<b>Download:</b> <a href="p052.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p052.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Jain-RSS-24, 
+    AUTHOR    = {Vidhi Jain, Maria Attarian, Nikhil J Joshi, Ayzaan Wahid, Danny Driess, Quan Vuong, Pannag R Sanketi, Pierre Sermanet, Stefan Welker, Christine Chan, Igor Gilitschenski, Yonatan Bisk, Debidatta Dwibedi}, 
+    TITLE     = {{Vid2Robot: End-to-end Video-conditioned Policy Learning with Cross-Attention Transformers}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.052} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

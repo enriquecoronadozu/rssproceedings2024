@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="URDFormer: A Pipeline for Constructing Articulated Simulation Environments from Real-World Images" />  
+<meta name="citation_author" content="Qiuyu Chen, Aaron Walsman, Marius Memmel, Kaichun Mo, Alex Fang, Dieter Fox, Abhishek Gupta" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p124.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>URDFormer: A Pipeline for Constructing Articulated Simulation Environments from Real-World Images</h3> 
+<i>Qiuyu Chen, Aaron Walsman, Marius Memmel, Kaichun Mo, Alex Fang, Dieter Fox, Abhishek Gupta</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Constructing accurate and targeted simulation scenes that are both visually and physically realistic is a problem of significant practical interest in domains ranging from robotics to computer vision. This problem has become even more relevant as researchers wielding large data-hungry learning methods seek new sources of training data for physical decision-making systems. However, building simulation models is often still done by hand - a graphic designer and a simulation engineer work with predefined assets to construct rich scenes with realistic dynamic and kinematic properties. While this may scale to small numbers of scenes, to achieve the generalization properties that are required for data-driven robotic control, we require a pipeline that is able to synthesize large numbers of realistic scenes, complete with ``natural" kinematic and dynamic structure. To attack this problem, we develop models for inferring structure and generating simulation scenes from natural images, allowing for scalable scene generation from web-scale datasets. To train these image-to-simulation models, we show how controllable text-to-image generative models can be used in generating paired training data that allows for modeling of the inverse problem, mapping from realistic images back to complete scene models. We show how this paradigm allows us to build large datasets of scenes in simulation with semantic and physical realism. We present an integrated end-to-end pipeline that generates simulation scenes complete with articulated kinematic and dynamic structures from real-world images and use these for training robotic control policies. We then robustly deploy in the real world for tasks like articulated object manipulation. In doing so, our work provides both a data generation pipeline for large-scale generation of simulation environments and an integrated system for training robust robotic control policies in the resulting environments.
+</p>  
+<p>  
+<b>Download:</b> <a href="p124.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p124.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Chen-RSS-24, 
+    AUTHOR    = {Qiuyu Chen, Aaron Walsman, Marius Memmel, Kaichun Mo, Alex Fang, Dieter Fox, Abhishek Gupta}, 
+    TITLE     = {{URDFormer: A Pipeline for Constructing Articulated Simulation Environments from Real-World Images}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.124} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

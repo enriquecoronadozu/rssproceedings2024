@@ -1,0 +1,70 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Linear-time Differential Inverse Kinematics: an Augmented Lagrangian Perspective" />  
+<meta name="citation_author" content="Bruce Wingo, Ajay Suresha Sathya, Stéphane Caron, Seth Hutchinson, Justin Carpentier" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p110.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Linear-time Differential Inverse Kinematics: an Augmented Lagrangian Perspective</h3> 
+<i>Bruce Wingo, Ajay Suresha Sathya, Stéphane Caron, Seth Hutchinson, Justin Carpentier</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+For decades, inverse kinematics (IK) was an intense and active research area in robotics.
+ 
+
+ Beyond analytical solutions limited to a restricted range of robotic systems and applications, differential inverse kinematics has emerged as a generic class of methods, able to cope with a wider variety of robots and scenarios, with quadratic programming-based approaches as the main paradigm.
+ 
+
+ In this paper, we propose to revisit differential inverse kinematics from the perspective of augmented Lagrangian methods (AL) and the well-known related alternating direction method of multipliers (ADMM).
+ 
+
+ Notably, by leveraging AL techniques and in the spirit of Featherstone algorithms, we introduce a rigid-body dynamics algorithm that solves equality-constrained IK problems with linear complexity in the number of robot joints and number of constraints. Combined with the ADMM strategy developed in the OSQP solver, we provide a new solution for the same class of problems as QP-based differential IK, yet with linear complexity in problem dimensions.
+ 
+
+ We propose an open-source C++ implementation of this approach, which we validate on a large set of problems including manipulation and humanoid locomotion tasks. Our benchmark measures computation times 2--3 $\times$ shorter than the QP-based state of the art.
+</p>  
+<p>  
+<b>Download:</b> <a href="p110.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p110.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Wingo-RSS-24, 
+    AUTHOR    = {Bruce Wingo, Ajay Suresha Sathya, Stéphane Caron, Seth Hutchinson, Justin Carpentier}, 
+    TITLE     = {{Linear-time Differential Inverse Kinematics: an Augmented Lagrangian Perspective}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.110} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

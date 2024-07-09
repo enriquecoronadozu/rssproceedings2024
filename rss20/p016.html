@@ -1,0 +1,63 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="SAGE: Bridging Semantic and Actionable Parts for GEneralizable Articulated-Object Manipulation under Language Instructions" />  
+<meta name="citation_author" content="Haoran Geng, Songlin Wei, Congyue Deng, Bokui Shen, He Wang, Leonidas Guibas" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p016.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>SAGE: Bridging Semantic and Actionable Parts for GEneralizable Articulated-Object Manipulation under Language Instructions</h3> 
+<i>Haoran Geng, Songlin Wei, Congyue Deng, Bokui Shen, He Wang, Leonidas Guibas</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+To interact with daily-life articulated objects of diverse structures and functionalities, understanding the object parts plays a central role in both user instruction comprehension and task execution.
+ However, the possible discordance between the semantic meaning and physics functionalities of the parts poses a challenge for designing a general system.
+ To address this problem, we propose SAGE, a novel framework that bridges semantic and actionable parts of articulated objects to achieve generalizable manipulation under natural language instructions.
+ More concretely, given an articulated object, we first observe all the semantic parts on it, conditioned on which an instruction interpreter proposes possible action programs that concretize the natural language instruction. Then, a part-grounding module maps the semantic parts into so-called Generalizable Actionable Parts (GAParts), which inherently carry information about part motion. End-effector trajectories are predicted on the GAParts, which, together with the action program, form an executable policy. Additionally, an interactive feedback module is incorporated to respond to failures, which closes the loop and increases the robustness of the overall framework.
+ Key to the success of our framework is the joint proposal and knowledge fusion between a large vision-language model (VLM) and a small domain-specific model for both context comprehension and part perception, with the former providing general intuitions and the latter serving as expert facts.
+ Both simulation and real-robot experiments show our effectiveness in handling a large variety of articulated objects with diverse language-instructed goals.
+</p>  
+<p>  
+<b>Download:</b> <a href="p016.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p016.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Geng-RSS-24, 
+    AUTHOR    = {Haoran Geng, Songlin Wei, Congyue Deng, Bokui Shen, He Wang, Leonidas Guibas}, 
+    TITLE     = {{SAGE: Bridging Semantic and Actionable Parts for GEneralizable Articulated-Object Manipulation under Language Instructions}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.016} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

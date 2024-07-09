@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach" />  
+<meta name="citation_author" content="Justin Carpentier, Quentin Le Lidec, Louis Montaut" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p108.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach</h3> 
+<i>Justin Carpentier, Quentin Le Lidec, Louis Montaut</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Whether rigid or compliant, contact interactions are inherent to robot motions, enabling them to move or manipulate things. Contact interactions result from complex physical phenomena, that can be mathematically cast as Nonlinear Complementarity Problems (NCPs) in the context of rigid or compliant point contact interactions. Such a class of complementarity problems is, in general, difficult to solve both from an optimization and numerical perspective. Over the past decades, dedicated and specialized contact solvers, implemented in modern robotics simulators (e.g., Bullet, Drake, MuJoCo, DART, Raisim) have emerged. Yet, most of these solvers tend either to solve a relaxed formulation of the original contact problems (at the price of physical inconsistencies) or to scale poorly with the problem dimension or its numerical conditioning (e.g., a robotic hand manipulating a paper sheet). In this paper, we introduce a unified and efficient approach to solving NCPs in the context of contact simulation. It relies on a sound combination of the Alternating Direction Method of Multipliers (ADMM) and proximal algorithms to account for both compliant and rigid contact interfaces in a unified way. To handle ill-conditioned problems and accelerate the convergence rate, we also propose an efficient update strategy to adapt the ADMM hyperparameters automatically. By leveraging proximal methods, we also propose new algorithmic solutions to efficiently evaluate the inverse dynamics involving rigid and compliant contact interactions, extending the approach developed in MuJoCo. We validate the efficiency and robustness of our contact solver against several alternative contact methods of the literature and benchmark them on various robotics and granular mechanics scenarios. Overall, the proposed approach is shown to be competitive against classic methods for simple contact problems and outperforms existing solutions on more complex scenarios, involving tens of contacts and poor conditioning.
+</p>  
+<p>  
+<b>Download:</b> <a href="p108.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p108.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Carpentier-RSS-24, 
+    AUTHOR    = {Justin Carpentier, Quentin Le Lidec, Louis Montaut}, 
+    TITLE     = {{From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.108} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

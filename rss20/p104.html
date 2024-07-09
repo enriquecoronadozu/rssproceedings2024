@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="POLICEd RL: Learning Closed-Loop Robot Control Policies with Provable Satisfaction of Hard Constraints" />  
+<meta name="citation_author" content="Jean-Baptiste Bouvier, Kartik Nagpal, Negar Mehr" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p104.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>POLICEd RL: Learning Closed-Loop Robot Control Policies with Provable Satisfaction of Hard Constraints</h3> 
+<i>Jean-Baptiste Bouvier, Kartik Nagpal, Negar Mehr</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+In this paper, we seek to learn a robot policy guaranteed to satisfy state constraints. To encourage constraint satisfaction, existing RL algorithms typically rely on Constrained Markov Decision Processes and discourage constraint violations through reward shaping. However, such soft constraints cannot offer safety guarantees. To address this gap, we propose POLICEd RL, a novel RL algorithm explicitly designed to enforce affine hard constraints in closed-loop with a black-box environment. Our key insight is to make the learned policy be affine around the unsafe set and to use this affine region as a repulsive buffer to prevent trajectories from violating the constraint. We prove that such policies exist and guarantee constraint satisfaction. Our proposed framework is applicable to both systems with continuous and discrete state and action spaces and is agnostic to the choice of the RL training algorithm. Our results demonstrate the capacity of POLICEd RL to enforce hard constraints in robotic tasks while significantly outperforming existing methods. Code available at https://iconlab.negarmehr.com/POLICEd-RL/
+</p>  
+<p>  
+<b>Download:</b> <a href="p104.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p104.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Bouvier-RSS-24, 
+    AUTHOR    = {Jean-Baptiste Bouvier, Kartik Nagpal, Negar Mehr}, 
+    TITLE     = {{POLICEd RL: Learning Closed-Loop Robot Control Policies with Provable Satisfaction of Hard Constraints}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.104} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

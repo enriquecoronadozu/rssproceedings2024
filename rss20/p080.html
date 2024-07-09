@@ -1,0 +1,64 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="RACER: Epistemic Risk-Sensitive RL Enables Fast Driving with Fewer Crashes" />  
+<meta name="citation_author" content="Kyle Stachowicz, Sergey Levine" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p080.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>RACER: Epistemic Risk-Sensitive RL Enables Fast Driving with Fewer Crashes</h3> 
+<i>Kyle Stachowicz, Sergey Levine</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Reinforcement learning provides an appealing framework for robotic control due to its ability to learn expressive policies purely through real-world interaction. However, this requires addressing real-world constraints, including avoidance of catastrophic failures during training, which might severely impede both learning progress and the performance of the final policy. In many robotics settings, this amounts to avoiding certain "unsafe" states. The high-speed off-road driving task represents a particularly challenging instantiation of this problem: a high-return policy should drive as aggressively and as quickly as possible, which often requires getting close to the edge of the set of "safe" states, and therefore places a particular burden on the method to avoid frequent failures.
+ 
+
+ To both learn highly performant policies and avoid excessive failures, we propose a reinforcement learning framework that combines risk-sensitive control with an adaptive action space curriculum. We propose a reinforcement learning objective that uses a risk-sensitive metric to jointly train a policy and iteratively expand action bounds during training, starting with a low-speed policy and slowly increasing the speed over time. Furthermore, we show that our risk-sensitive objective automatically avoids out-of-distribution states when equipped with an estimator for epistemic uncertainty.
+ 
+
+ We implement our algorithm on a small-scale rally car and show that it is capable of learning high-speed policies for a real-world off-road driving task. We show that our method greatly reduces the number of safety violations during the training process, and actually leads to better final high-speed driving policies at the end of training.
+</p>  
+<p>  
+<b>Download:</b> <a href="p080.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p080.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Stachowicz-RSS-24, 
+    AUTHOR    = {Kyle Stachowicz, Sergey Levine}, 
+    TITLE     = {{RACER: Epistemic Risk-Sensitive RL Enables Fast Driving with Fewer Crashes}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.080} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

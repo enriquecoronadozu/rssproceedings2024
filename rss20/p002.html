@@ -1,0 +1,82 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Parallel and Proximal Linear-Quadratic Methods for Real-Time Constrained Model-Predictive Control" />  
+<meta name="citation_author" content="Wilson Jallet, Ewen Dantec, Etienne Arlaud, Nicolas Mansard, Justin Carpentier" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p002.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Parallel and Proximal Linear-Quadratic Methods for Real-Time Constrained Model-Predictive Control</h3> 
+<i>Wilson Jallet, Ewen Dantec, Etienne Arlaud, Nicolas Mansard, Justin Carpentier</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Recent strides in model predictive control (MPC)
+ underscore a dependence on numerical advancements to efficiently
+ and accurately solve large-scale problems. Given the substantial
+ number of variables characterizing typical whole-body optimal
+ control problems —often numbering in the thousands— exploiting
+ the sparse structure of the numerical problem becomes crucial
+ to meet computational demands, typically in the range of a
+ few milliseconds. A fundamental building block for computing
+ Newton or Sequential Quadratic Programming steps in direct
+ optimal control methods involves addressing the linear-quadratic
+ regulator (LQR) problem. This paper concentrates on equality-
+ constrained problems featuring implicit system dynamics and
+ dual regularization, a characteristic found in advanced interior-
+ point or augmented-Lagrangian solvers. Here, we introduce a
+ parallel algorithm designed for solving an LQR problem with
+ dual regularization. Leveraging a rewriting of the LQR recursion
+ through block elimination, we first enhanced the efficiency of
+ the serial algorithm, then subsequently generalized to handle
+ parametric LQR. This extension enables us to split decision
+ variables and to solve several subproblems concurrently. Our
+ algorithm is implemented (and will be released in open source) in a
+ nonlinear constrained implicit optimal control solver. It showcases
+ improved performance over previous serial formulations and we
+ validate its efficacy by deploying it in the model predictive control
+ of a real quadruped robot.
+</p>  
+<p>  
+<b>Download:</b> <a href="p002.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p002.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Jallet-RSS-24, 
+    AUTHOR    = {Wilson Jallet, Ewen Dantec, Etienne Arlaud, Nicolas Mansard, Justin Carpentier}, 
+    TITLE     = {{Parallel and Proximal Linear-Quadratic Methods for Real-Time Constrained Model-Predictive Control}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.002} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

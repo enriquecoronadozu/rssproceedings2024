@@ -1,0 +1,66 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Event-based Visual Inertial Velometer" />  
+<meta name="citation_author" content="Xiuyuan LU, Yi Zhou, Junkai Niu, sheng zhong, Shaojie Shen" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p088.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Event-based Visual Inertial Velometer</h3> 
+<i>Xiuyuan LU, Yi Zhou, Junkai Niu, sheng zhong, Shaojie Shen</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Neuromorphic event-based cameras are bio-inspired visual sensors with asynchronous pixels and extremely high temporal resolution.
+ Such favorable properties make them an excellent choice for solving state estimation tasks under aggressive ego motion.
+ However, failures of camera pose tracking are frequently witnessed in state-of-the-art event-based visual odometry systems when the local map cannot be updated in time.
+ One of the biggest roadblocks for this specific field is the absence of efficient and robust methods for data association without imposing any assumption on the environment.
+ This problem seems, however, unlikely to be addressed as in standard vision due to the motion-dependent observability of event data.
+ Therefore, we propose a map-free design for event-based visual-inertial state estimation in this paper.
+ Instead of estimating the position of the event camera, we find that recovering the instantaneous linear velocity is more consistent with the differential working principle of event cameras.
+ The proposed event-based visual-inertial velometer leverages a continuous-time formulation that incrementally fuses the heterogeneous measurements from a stereo event camera and an inertial measurement unit.
+ Experiments on both synthetic and real data demonstrate that the proposed method can recover instantaneous linear velocity in metric scale with low latency.
+</p>  
+<p>  
+<b>Download:</b> <a href="p088.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p088.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{LU-RSS-24, 
+    AUTHOR    = {Xiuyuan LU, Yi Zhou, Junkai Niu, sheng zhong, Shaojie Shen}, 
+    TITLE     = {{Event-based Visual Inertial Velometer}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.088} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Offline Imitation Learning Through Graph Search and Retrieval" />  
+<meta name="citation_author" content="Zhao-Heng Yin, Pieter Abbeel" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p054.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Offline Imitation Learning Through Graph Search and Retrieval</h3> 
+<i>Zhao-Heng Yin, Pieter Abbeel</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Imitation learning is a powerful machine learning algorithm for a robot to acquire manipulation skills. Nevertheless, many real-world manipulation tasks involve precise and dexterous robot-object interactions, which make it difficult for humans to collect high-quality expert demonstrations. As a result, a robot has to learn skills from suboptimal demonstrations and unstructured interactions, which remains a key challenge. Existing works typically use offline deep reinforcement learning~(RL) to solve this challenge, but in practice these algorithms are unstable and fragile due to the deadly triad issue. To overcome this problem, we propose GSR, a simple yet effective algorithm that learns from suboptimal demonstrations through Graph Search and Retrieval. We first use pretrained representation to organize the interaction experience into a graph and perform a graph search to calculate the values of different behaviors. Then, we apply a retrieval-based procedure to identify the best behavior (actions) on each state and use behavior cloning to learn that behavior. We evaluate our method in both simulation and real-world robotic manipulation tasks with complex visual inputs, covering various precise and dexterous manipulation skills with objects of different physical properties. GSR can achieve a 10% to 30% higher success rate and over 30% higher proficiency compared to baselines.
+</p>  
+<p>  
+<b>Download:</b> <a href="p054.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p054.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Yin-RSS-24, 
+    AUTHOR    = {Zhao-Heng Yin, Pieter Abbeel}, 
+    TITLE     = {{Offline Imitation Learning Through Graph Search and Retrieval}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.054} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

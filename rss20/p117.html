@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Goal-Reaching Trajectory Design Near Danger with Piecewise Affine Reach-avoid Computation" />  
+<meta name="citation_author" content="Long Kiu Chung, Wonsuhk Jung, Chuizheng Kong, Shreyas Kousik" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p117.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Goal-Reaching Trajectory Design Near Danger with Piecewise Affine Reach-avoid Computation</h3> 
+<i>Long Kiu Chung, Wonsuhk Jung, Chuizheng Kong, Shreyas Kousik</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Autonomous mobile robots must maintain safety, but should not sacrifice performance, leading to the classical reach-avoid problem: find a trajectory that is guaranteed to reach a goal and avoid obstacles. This paper addresses the near danger case, also known as a narrow gap, where the agent starts near the goal, but must navigate through tight obstacles that block its path. The proposed method builds off the common approach of using a simplified planning model to generate plans, which are then tracked using a high-fidelity tracking model and controller. Existing approaches use reachability analysis to overapproximate the error between these models and ensure safety, but doing so introduces numerical approximation error conservativeness that prevents goal-reaching. The present work instead proposes a Piecewise Affine Reach-avoid Computation (PARC) method to tightly approximate the reachable set of the planning model. PARC significantly reduces conservativeness through a careful choice of the planning model and set representation, along with an effective approach to handling time-varying tracking errors. The utility of this method is demonstrated through extensive numerical experiments in which PARC outperforms state-of-the-art reach avoid methods in near-danger goal reaching. Furthermore, in a simulated demonstration, PARC enables the generation of provably-safe extreme vehicle dynamics drift parking maneuvers. A preliminary hardware demo on a TurtleBot3 also validates the method.
+</p>  
+<p>  
+<b>Download:</b> <a href="p117.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p117.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Kiu Chung-RSS-24, 
+    AUTHOR    = {Long Kiu Chung, Wonsuhk Jung, Chuizheng Kong, Shreyas Kousik}, 
+    TITLE     = {{Goal-Reaching Trajectory Design Near Danger with Piecewise Affine Reach-avoid Computation}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.117} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

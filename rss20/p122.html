@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Don't Start From Scratch: Behavioral Refinement via Interpolant-based Policy Diffusion" />  
+<meta name="citation_author" content="Kaiqi Chen, Eugene Lim, Lin Kelvin, Yiyang Chen, Harold Soh" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p122.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Don't Start From Scratch: Behavioral Refinement via Interpolant-based Policy Diffusion</h3> 
+<i>Kaiqi Chen, Eugene Lim, Lin Kelvin, Yiyang Chen, Harold Soh</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Imitation learning empowers artificial agents to mimic behavior by learning from demonstrations. Recently, diffusion models, which have the ability to model high-dimensional and multimodal distributions, have shown impressive performance on imitation learning tasks. These models learn to shape a policy by diffusing actions (or states) from standard Gaussian noise. However, the target policy to learn is often significantly different from Gaussian and this mismatch can result in poor performance when using a small number of diffusion steps (to improve inference speed) and under limited data. The key idea in this work is that initiating from a more informative source than Gaussian enables diffusion methods to mitigate the above limitations. We contribute both theoretical results, a new method, and empirical findings that show the benefits of using an informative source policy. Our method, which we call BRIDGeR, leverages the stochastic interpolants framework to bridge arbitrary policies, thus enabling a flexible approach towards imitation learning. It generalizes prior work in that standard Gaussians can still be applied, but other source policies can be used if available. In experiments on challenging simulation benchmarks and on real robots, BRIDGeR outperforms state-of-the-art diffusion policies. We provide further analysis on design considerations when applying BRIDGeR. Code for BRIDGeR is available at https://github.com/clear-nus/bridger.
+</p>  
+<p>  
+<b>Download:</b> <a href="p122.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p122.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Chen-RSS-24, 
+    AUTHOR    = {Kaiqi Chen, Eugene Lim, Lin Kelvin, Yiyang Chen, Harold Soh}, 
+    TITLE     = {{Don't Start From Scratch: Behavioral Refinement via Interpolant-based Policy Diffusion}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.122} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

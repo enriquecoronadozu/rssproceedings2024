@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Optimal Non-Redundant Manipulator Surface Coverage with Rank-Deficient Manipulability Constraints" />  
+<meta name="citation_author" content="Tong Yang, Li Huang, Jaime Valls Miro, Yue Wang, Rong Xiong" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p009.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Optimal Non-Redundant Manipulator Surface Coverage with Rank-Deficient Manipulability Constraints</h3> 
+<i>Tong Yang, Li Huang, Jaime Valls Miro, Yue Wang, Rong Xiong</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+A generalised solver for the manipulator non-revisiting coverage path planning (NCPP) problem is proposed in this paper. Nonlinear manipulator kinematics and the imposition of task-specific constraints dictate that applying conventional coverage path planning (CPP) solutions based on 2D template matching or cellular decomposition schemes on the target surface invariably results in truncated end-effector motions. Likewise, coverage paths designed directly in joint-space cannot ensure re-occurrences will not arise. More recent SOTA works have proposed finite-step optimal NCPP solutions where singularities are however expressly disregarded. Directly incorporating singular configurations violates the local bijectivity and finite-to-one property in the kinematic mapping, and cannot be properly modelled within existing schemes. This work leverages "valid'' singularities, those that exhibit sufficient manoeuvrability in suitable dimensions to allow continuation of the tracking motion, thus further reducing the number of posture reconfigurations. The scheme assumes a generic representation of surfaces as discrete meshes, symbolising a null probability to locate the points corresponding to valid but singular inverse kinematic configurations, and constructs a practical method to traverse a singularity without explicitly calculating it. Simulated and realistic experiments are carried out where the suitability of the scheme to reduce posture reconfigurations and achieve continuous coverage motions are compared with existing methods. Three scenarios have been examined whereby the planner is able to fulfil motions without discontinuities in all instances.
+</p>  
+<p>  
+<b>Download:</b> <a href="p009.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p009.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Yang-RSS-24, 
+    AUTHOR    = {Tong Yang, Li Huang, Jaime Valls Miro, Yue Wang, Rong Xiong}, 
+    TITLE     = {{Optimal Non-Redundant Manipulator Surface Coverage with Rank-Deficient Manipulability Constraints}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.009} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

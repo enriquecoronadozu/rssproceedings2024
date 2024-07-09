@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Implicit Graph Search for Planning on Graphs of Convex Sets" />  
+<meta name="citation_author" content="Ramkumar Natarajan, Chaoqi Liu, Howie Choset, Maxim Likhachev" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p113.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Implicit Graph Search for Planning on Graphs of Convex Sets</h3> 
+<i>Ramkumar Natarajan, Chaoqi Liu, Howie Choset, Maxim Likhachev</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Smooth, collision-free motion planning is a fundamental challenge in robotics with a wide range of applications such as automated manufacturing, search \& rescue, underwater exploration, etc. Graphs of Convex Sets (GCS) is a recent method for synthesizing smooth trajectories by decomposing the planning space into convex sets, forming a graph to encode the adjacency relationships within the decomposition, and then simultaneously searching this graph and optimizing parts of the trajectory to obtain the final trajectory. To do this, one must solve a Mixed Integer Convex Program (MICP) and to mitigate computational time, GCS proposes a convex relaxation that is empirically very tight. Despite this tight relaxation, motion planning with GCS for real-world robotics problems translates to solving the simultaneous batch optimization problem that may contain millions of constraints and therefore can be slow. This is further exacerbated by the fact that the size of the GCS problem is invariant to the planning query. Motivated by the observation that the trajectory solution lies only on a fraction of the set of convex sets, we present two implicit graph search methods for planning on the graph of convex sets called INSATxGCS (IxG) and IxG*. INterleaved Search And Trajectory optimization (INSAT) is a previously developed algorithm that alternates between searching on a graph and optimizing partial paths to find a smooth trajectory. By using an implicit graph search method INSAT on the graph of convex sets, we achieve faster planning while ensuring stronger guarantees on completeness and optimality. Moveover, introducing a search-based technique to plan on the graph of convex sets enables us to easily leverage well-established techniques such as search parallelization, lazy planning, anytime planning, and replanning as future work. Numerical comparisons against GCS demonstrate the superiority of IxG across several applications, including planning for an 18-degree-of-freedom multi-arm assembly scenario.
+</p>  
+<p>  
+<b>Download:</b> <a href="p113.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p113.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Natarajan-RSS-24, 
+    AUTHOR    = {Ramkumar Natarajan, Chaoqi Liu, Howie Choset, Maxim Likhachev}, 
+    TITLE     = {{Implicit Graph Search for Planning on Graphs of Convex Sets}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.113} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Differentiable Robust Model Predictive Control" />  
+<meta name="citation_author" content="Alex Oshin, Hassan Almubarak, Evangelos Theodorou" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p003.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Differentiable Robust Model Predictive Control</h3> 
+<i>Alex Oshin, Hassan Almubarak, Evangelos Theodorou</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Deterministic model predictive control (MPC), while powerful, is often insufficient for effectively controlling autonomous systems in the real-world. Factors such as environmental noise and model error can cause deviations from the expected nominal performance. Robust MPC algorithms aim to bridge this gap between deterministic and uncertain control. However, these methods are often excessively difficult to tune for robustness due to the nonlinear and non-intuitive effects that controller parameters have on performance. To address this challenge, we first present a unifying perspective on differentiable optimization for control using the implicit function theorem (IFT), from which existing state-of-the art methods can be derived. Drawing parallels with differential dynamic programming, the IFT enables the derivation of an efficient differentiable optimal control framework. The derived scheme is subsequently paired with a tube-based MPC architecture to facilitate the automatic and real-time tuning of robust controllers in the presence of large uncertainties and disturbances. The proposed algorithm is benchmarked on multiple nonlinear robotic systems, including two systems in the MuJoCo simulator environment and one hardware experiment on the Robotarium testbed, to demonstrate its efficacy.
+</p>  
+<p>  
+<b>Download:</b> <a href="p003.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p003.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Oshin-RSS-24, 
+    AUTHOR    = {Alex Oshin, Hassan Almubarak, Evangelos Theodorou}, 
+    TITLE     = {{Differentiable Robust Model Predictive Control}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.003} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

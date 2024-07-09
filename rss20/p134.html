@@ -1,0 +1,80 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="One-Shot Imitation Learning with Invariance Matching for Robotic Manipulation" />  
+<meta name="citation_author" content="Xinyu Zhang, Abdeslam Boularias" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p134.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>One-Shot Imitation Learning with Invariance Matching for Robotic Manipulation</h3> 
+<i>Xinyu Zhang, Abdeslam Boularias</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Learning a single universal policy that can perform
+ a diverse set of manipulation tasks is a promising new direction
+ in robotics. However, existing techniques are limited to learning
+ policies that can only perform tasks that are encountered during
+ training, and require a large number of demonstrations to learn
+ new tasks. Humans, on the other hand, often can learn a new
+ task from a single unannotated demonstration. In this work,
+ we propose the Invariance-Matching One-shot Policy Learning
+ (IMOP) algorithm. In contrast to the standard practice of learning
+ the end-effector’s pose directly, IMOP first learns invariant regions
+ of the state space for a given task, and then computes the end-
+ effector’s pose through matching the invariant regions between
+ demonstrations and test scenes. Trained on the 18 RLBench
+ tasks, IMOP achieves a success rate that outperforms the state-
+ of-the-art consistently, by 4.5% on average over the 18 tasks.
+ More importantly, IMOP can learn a novel task from a single
+ unannotated demonstration, and without any fine-tuning, and
+ achieves an average success rate improvement of 11.5% over the
+ state-of-the-art on 22 novel tasks selected across nine categories.
+ IMOP can also generalize to new shapes and learn to manipulate
+ objects that are different from those in the demonstration. Further,
+ IMOP can perform one-shot sim-to-real transfer using a single
+ real-robot demonstration.
+</p>  
+<p>  
+<b>Download:</b> <a href="p134.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p134.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Zhang-RSS-24, 
+    AUTHOR    = {Xinyu Zhang, Abdeslam Boularias}, 
+    TITLE     = {{One-Shot Imitation Learning with Invariance Matching for Robotic Manipulation}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.134} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

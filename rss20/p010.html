@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation" />  
+<meta name="citation_author" content="Kaifeng Zhang, Baoyu Li, Kris Hauser, Yunzhu Li" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p010.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation</h3> 
+<i>Kaifeng Zhang, Baoyu Li, Kris Hauser, Yunzhu Li</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Predictive models are a crucial component of many robotic systems. Yet, constructing accurate predictive models for a variety of deformable objects, especially those with unknown physical properties, remains a significant challenge. This paper introduces AdaptiGraph, a learning-based dynamics modeling approach that enables robots to predict, adapt to, and control a wide array of challenging deformable materials with unknown physical properties. AdaptiGraph leverages the highly flexible graph-based neural dynamics (GBND) framework, which represents material bits as particles and employs a graph neural network (GNN) to predict particle motion. Its key innovation is a unified physical property-conditioned GBND model capable of predicting the motions of diverse materials with varying physical properties without retraining. Upon encountering new materials during online deployment, AdaptiGraph utilizes a physical property optimization process for a few-shot adaptation of the model, enhancing its fit to the observed interaction data. The adapted models can precisely simulate the dynamics and predict the motion of various deformable materials, such as ropes, granular media, rigid boxes, and cloth, while adapting to different physical properties, including stiffness, granular size, and center of pressure. On prediction and manipulation tasks involving a diverse set of real-world deformable objects, our method exhibits superior prediction accuracy and task proficiency over non-material-conditioned and non-adaptive models.
+</p>  
+<p>  
+<b>Download:</b> <a href="p010.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p010.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Zhang-RSS-24, 
+    AUTHOR    = {Kaifeng Zhang, Baoyu Li, Kris Hauser, Yunzhu Li}, 
+    TITLE     = {{AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.010} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

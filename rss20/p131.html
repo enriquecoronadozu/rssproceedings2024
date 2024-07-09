@@ -1,0 +1,58 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Configuration Space Distance Fields for Manipulation Planning" />  
+<meta name="citation_author" content="Yiming Li, Xuemin Chi, Amirreza Razmjoo, Sylvain Calinon" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p131.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Configuration Space Distance Fields for Manipulation Planning</h3> 
+<i>Yiming Li, Xuemin Chi, Amirreza Razmjoo, Sylvain Calinon</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+The signed distance field (SDF) is a popular implicit shape representation in robotics, providing geometric information about objects and obstacles in a form that can easily be combined with control, optimization and learning techniques. Most often, SDFs are used to represent distances in task space, which corresponds to the familiar notion of distances that we perceive in our 3D world. However, SDFs can mathematically be used in other spaces, including robot configuration spaces. For a robot manipulator, this configuration space typically corresponds to the joint angles for each articulation of the robot. While it is customary in robot planning to express which portions of the configuration space are free from collision with obstacles, it is less common to think of this information as a distance field in the configuration space. In this paper, we demonstrate the potential of considering SDFs in the robot configuration space for optimization, which we call configuration space distance field (or CDField for short). Similarly to the use of SDF in task space, CDField provides an efficient joint angle distance query and direct access to the derivatives (joint angle velocity). Most approaches split the overall computation with one part in task space followed by one part in configuration space (evaluating distances in task space and then computing actions with inverse kinematics). Instead, CDField allows the implicit structure to be leveraged by control, optimization, and learning problems in a unified manner. In particular, we propose an efficient algorithm to compute and fuse CDFields that can be generalized to arbitrary scenes. A corresponding neural CDField representation using multilayer perceptrons (MLPs) is also presented to obtain a compact and continuous representation while improving computation efficiency. We demonstrate the effectiveness of CDField with planar obstacle avoidance examples and with a 7-axis Franka Emika robot in inverse kinematics and manipulation planning tasks.
+</p>  
+<p>  
+<b>Download:</b> <a href="p131.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p131.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Li-RSS-24, 
+    AUTHOR    = {Yiming Li, Xuemin Chi, Amirreza Razmjoo, Sylvain Calinon}, 
+    TITLE     = {{Configuration Space Distance Fields for Manipulation Planning}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.131} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 

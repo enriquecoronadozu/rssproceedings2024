@@ -1,0 +1,59 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Safe Planning for Articulated Robots Using Reachability-based Obstacle Avoidance With Spheres" />  
+<meta name="citation_author" content="Jonathan Michaux, Adam Li, Qingyi Chen, Che Chen, Ram Vasudevan" />  
+<meta name="citation_publication_date" content="2024/07/15" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XX" />  
+<meta name="citation_isbn" content="979-8-9902848-0-7" />  
+<meta name="citation_volume" content="20" />  
+<meta name="citation_pdf_url" content="http://www.roboticsproceedings.org/rss20/p035.pdf" />  
+<title>Robotics: Science and Systems XX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<%include="menu-fragment.html"%> 
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XX</h1>  
+<h3>Safe Planning for Articulated Robots Using Reachability-based Obstacle Avoidance With Spheres</h3> 
+<i>Jonathan Michaux, Adam Li, Qingyi Chen, Che Chen, Ram Vasudevan</i><br> 
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+Generating safe motion plans in real-time is necessary for the wide-scale deployment of robots in unstructured and human-centric environments. These motion plans must be safe to ensure humans are not harmed and nearby objects are not damaged.
+ However, they must also be generated in real-time to ensure the robot can quickly adapt to changes in the environment. Many trajectory optimization methods introduce heuristics that trade-off safety and real-time performance, which can lead to potentially unsafe plans. This paper addresses this challenge by proposing Safe Planning for Articulated Robots Using Reachability-based Obstacle Avoidance With Spheres (SPARROWS). SPARROWS is a receding-horizon trajectory planner that utilizes the combination of a novel reachable set representation and an exact signed distance function to generate provably-safe motion plans. At runtime, SPARROWS uses parameterized trajectories to compute reachable sets composed entirely of spheres that overapproximate the swept volume of the robot's motion. SPARROWS then performs trajectory optimization to select a safe trajectory that is guaranteed to be collision-free. We demonstrate that SPARROWS' novel reachable set is significantly less conservative than previous approaches. We also demonstrate that SPARROWS outperforms a variety of state-of-the-art methods in solving challenging motion planning tasks in cluttered environments. Code will be released upon acceptance of this manuscript.
+</p>  
+<p>  
+<b>Download:</b> <a href="p035.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss10/p035.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Michaux-RSS-24, 
+    AUTHOR    = {Jonathan Michaux, Adam Li, Qingyi Chen, Che Chen, Ram Vasudevan}, 
+    TITLE     = {{Safe Planning for Articulated Robots Using Reachability-based Obstacle Avoidance With Spheres}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2024}, 
+    ADDRESS   = {Delft, Netherlands}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2024.XX.035} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<div class="analyt"> 
+<%include="analyt-fragment.html"%> 
+</div> 
+</body>  
+</html> 
